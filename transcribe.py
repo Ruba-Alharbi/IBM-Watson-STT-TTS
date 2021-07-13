@@ -140,7 +140,7 @@ def on_message(self, msg):
           text.writelines(output_text)
           text.close()
         print (json.dumps(response, indent=2))
-    
+   #TTS> it will read form the output.txt (STT) and convert it to MP3 audio (TTS)
 with open('output.txt', 'r') as f:
  tts_Speech = f.read()
  
