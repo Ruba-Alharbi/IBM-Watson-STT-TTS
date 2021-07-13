@@ -23,7 +23,7 @@ I will take you to learn how to create these services, and I'll show you some of
      * Change name of file speech.cfg.examples by deleting .examples to avoid any error and save it.
      * Past the APIKEY and the RESION  that we copied in **step 4** and save it.
 8. Now we gonna Run Live transcription by the following command ` python3 transcribe.py -t 4` 
-     * 4 >it's the time by seconds to record your talk.
+     * 4 >its means the time by seconds to record your talk.
 **The output should be like this**
 <img src="ibm-stt-&-tts-imgs/recording.png" width="550" >
 
@@ -34,7 +34,7 @@ IBM Watson -Text to Speech-
 
 1. Setup Watson TTS Service by Going  to [IBM-Cloud](https://cloud.ibm.com/catalog)
     * Search for Speech to text service and click on it, select a Location, select a plan, then create the service.
-    * Go to Service credentials , in **Auto-generated service credentials** copy the APIKEY and the RESION, because we gonna need it to setup the service.
+    * Go to Service credentials , in **Auto-generated service credentials** copy the APIKEY and the URL, because we gonna need it to setup the service.
 2. Install the dependencies by, ```pip3 install ibm_watson ```
 3. Setup TTS service with APIKEY & URL
 4. Convert the text with a basic Language Model.
