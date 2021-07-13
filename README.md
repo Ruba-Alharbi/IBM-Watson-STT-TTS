@@ -1,7 +1,10 @@
 # IBM-Watson-STT-TTS
 
-This's a task to create an STT and TTS by IBM Watson Services for the (Evaluation robot from Smart Methods company). 
+* The purpose of this task is to create an STT and TTS by IBM Watson Services for the (Evaluation robot from Smart Methods company). 
 I will take you to learn how to create these services, and I'll show you some of a problem that I had.
+* I merged STT with TTS in **transcribe.py** file 
+   * **output.txt** contains the text from (speech-to-text) 
+   * **tts_audio.mp3** contains the speech from (text-to-speech)
 
 
  IBM Watson -Speech to text- tutorial for Mac
